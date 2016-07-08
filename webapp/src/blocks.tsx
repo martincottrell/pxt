@@ -127,7 +127,7 @@ export class Editor extends srceditor.Editor {
             zoom: {
                 enabled: true,
                 controls: true,
-                wheel: true,
+                wheel: false,
                 maxScale: 2.5,
                 minScale: .1,
                 scaleSpeed: 1.1
