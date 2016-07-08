@@ -1601,7 +1601,7 @@ function simulatorCoverage(pkgCompileRes: ts.pxt.CompileResult, pkgOpts: ts.pxt.
         let simName = "pxsim." + shim.replace(/::/g, ".")
         let sym = U.lookup(decls, simName)
         if (!sym) {
-            console.log("missing in sim:", simName)
+            //console.log("missing in sim:", simName)
         }
     }
 

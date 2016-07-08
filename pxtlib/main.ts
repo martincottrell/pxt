@@ -607,8 +607,8 @@ namespace pxt {
                     U.iterStringMap(cfg.dependencies, (k, v) => {
                         if (v != "*" && !/^pub:/.test(v)) {
                             cfg.dependencies[k] = "*"
-                            if (v)
-                                pxt.log(`local dependency '${v}' replaced with '*' in published package`)
+                            // if (v)
+                            //     pxt.log(`local dependency '${v}' replaced with '*' in published package`)
                         }
                     })
                     files[configName] = JSON.stringify(cfg, null, 4)
